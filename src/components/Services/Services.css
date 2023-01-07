@@ -1,0 +1,61 @@
+.abc{
+    margin-bottom: 80vh;
+}
+.services{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.services h1 {
+    /* margin-top: 4rem; */
+    /* text-decoration: underline; */
+    text-decoration: solid underline yellow 8px;
+}
+.services h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: #757575;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+.services-abox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.services-abox .card{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    /* width: 20vw; */
+    /* margin: 2rem; */
+    padding: 1rem;
+}
+ .card h2{
+    font-weight: 600;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+}
+.card p{
+    margin-top: 1rem;
+    font-size: large;
+    font-weight: bolder;
+    /* letter-spacing: .1rem; */
+    margin-bottom: 1rem;
+    color: #757575;
+}
+.card h3{
+    color: #7d7d28;
+    font-size: 1.3rem;
+    letter-spacing: .1rem;
+}

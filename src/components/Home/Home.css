@@ -1,0 +1,94 @@
+/* Home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 14vh;
+} */
+.home-input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-right: 28%;
+    margin-top: 5%;
+}
+.home-input input{
+    /* float: right; */
+    border: 3px solid #7575f7;
+    border-radius: 2px;
+    width: 25vw;
+    height: 8vh;
+    position: absolute;
+    /* position: relative; */
+    box-sizing: border-box;
+    
+}
+.home-input img{
+ position: relative;
+ /* position: absolute; */
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding: 5px 0px 0px 5px;
+}
+
+input::placeholder {
+    font-weight: bold;
+    font-size: large;
+    opacity: 0.5;
+    color: blue;
+    padding-left: 20%;
+}
+
+.home-sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.home-a h1{
+    font-size: 3rem;
+}
+.home-a p{
+    color: blue;
+    letter-spacing: .1rem;
+    margin-top: 1.5rem;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.home-a h3{
+    color: blue;
+    letter-spacing: .1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.home-a h2{
+    font-size: 2rem;
+    color: #6f6f7d;
+    /* margin-bottom: ; */
+}
+.home-a button{
+    padding: 1rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    border-radius: 2px;
+}
+
+.home-video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.home-video img{
+    margin-left: 20px;
+    border: 2px solid blue; 
+    border-radius: 50%;
+    padding: 6px 6px 6px 6px;
+    /* margin: 10px 0px 10px 0px; */
+}
