@@ -1,6 +1,6 @@
-.abc{
+/* .abc{
     margin-bottom: 80vh;
-}
+} */
 .services{
     display: flex;
     align-items: center;
@@ -58,4 +58,68 @@
     color: #7d7d28;
     font-size: 1.3rem;
     letter-spacing: .1rem;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15vh;
+}
+.cards-box{
+    width: 50%;
+    padding: 5%;
+}
+.cards .cards-box h3{
+    margin-top: 20px;
+    color: blue;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    margin-bottom: 5rem;
+}
+
+.cards-card{
+    border: 1px solid #757575;
+    padding: 4rem;
+    margin-bottom: 10rem;
+    /* padding-bottom: 10rem; */
+    border-radius: 20px;
+}
+.cards-card img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 15vh;
+}
+.cards-card h2{
+    position: absolute;
+}
+.cards-card h2 img{
+    position: relative;
+}
+
+
+@media screen and (max-width: 1170px) {
+    .services-abox{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .cards{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .cards .cards-box {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+    }
 }

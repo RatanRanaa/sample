@@ -6,7 +6,7 @@ const Home = () => {
     <div>
       <div className='home-input'>
         <div></div>
-        <div>
+        <div className='first'>
           <input className='input' placeholder='Search a team | Topic' />
           <img src="./Assets/Vector-3.png" alt="logo" />
         </div>
@@ -34,7 +34,7 @@ const Home = () => {
       </div>
       <div className='home-video'>
         <h3>Watch the video about UAE or Offshore Company Registration</h3>
-        <img src="/Assets/Group 117.png" alt="" />
+        <img style={{cursor:"pointer"}} src="/Assets/Group 117.png" alt="" />
       </div>
     </div>
   )

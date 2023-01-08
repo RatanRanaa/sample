@@ -1,0 +1,128 @@
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card .card-a{
+    width: 40vw;
+}
+.a {
+    border-left: 10px solid blue;
+    padding: 10px;
+}
+.card-a .a h2{
+    color: black;
+}
+.b{
+    margin-top: 5rem;
+}
+.b img{
+    border: 2px solid blue;
+    padding: 1.5rem;
+    border-radius: 6px;
+    position: relative;
+}
+.b tt{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: bold;
+    width: 25vw;
+    margin-left: 4vw;
+}
+
+.b span{
+    margin-left: 4vw;
+    font-weight: bold;
+}
+
+.c{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15vh;
+    color: #757575;
+}
+.c img{
+    border: 2px solid blue; 
+    border-radius: 50%;
+    padding: 10px;
+}
+.c pre{
+    border-bottom: 5px solid blue;
+    margin-bottom: 0vh;
+}
+.c h2{
+    margin-left: 50px;
+}
+.c h3{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.sec{
+    width: 25vw;
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: end; */
+    flex-direction: column;
+    /* text-align: left; */
+    /* align-items: left; */
+}
+
+.sec-b{
+    margin-top: 5vh;
+}
+.sec-b h2{
+    margin-bottom: 5vh;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.sec-c input{
+    width: 25vw;
+    height: 9vh;
+    border: none;
+    background-color: rgb(233, 233, 233);
+    margin-top: 8vh;
+    font-weight: bold;
+    position: relative;
+}
+.sec-c img{
+    position: absolute;
+    margin-top: 8vh;
+}
+.sec-img img{
+    margin-top: 15vh;
+    margin-right: 3vw;
+}
+.laset{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+    margin: 15vh;
+}
+
+@media screen and (max-width: 1170px) {
+    .sec{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+        width: 100%;
+        padding: 0px;
+    }
+    .sec-c input{
+        width: 100%;
+    }
+    .laset h2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.2rem;
+        width: 100%;
+    }
+}
